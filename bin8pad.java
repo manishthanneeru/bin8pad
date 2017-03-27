@@ -7,7 +7,7 @@ public static void main(String [] args)
 BufferedReader sc = new BufferedReader(new InputStreamReader(System.in));   //reads input from user
 try {
     String x= sc.readLine();
-    String bytecodes=bin(x);                                            //calls encode function try block
+    String bytecodes=bin(x);                                            //calls bin function that pads the 0's
     System.out.println("The resultant String is:" +bytecodes);
 } 
 catch (IOException e) 
