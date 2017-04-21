@@ -1,2 +1,2 @@
 # bin8pad
-Pads 0 of given length to binary strings.
+This program converts normal unicode text into encryted ascii text.
